@@ -1,0 +1,248 @@
+
+body{
+  background-color: #1aa3ff;
+  margin: 100px;
+}
+
+.petal{
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  border-radius: 0 100px;
+  position: relative;
+  transform-origin: right bottom;
+  background-image: url(https://thumbs.dreamstime.com/b/estampado-de-flores-violeta-abstracto-flores-p%C3%BArpuras-fondo-de-la-textura-del-p%C3%A9talo-vector-incons%C3%BAtil-81744019.jpg);
+  background-repeat: no-repeat;
+  box-shadow: 20px 20px 20px;
+  }
+
+.primer{
+  top: 100px;
+  left: 100px;
+  transform: rotate(0deg);
+
+  transform-origin: right bottom;
+
+}
+
+.segon{
+  top: 0px;
+  left: 100px;
+  transform: rotate(60deg);
+
+  transform-origin: right bottom;
+
+}
+
+.tercer{
+  top: -100px;
+  left: 100px;
+  transform: rotate(120deg);
+
+  transform-origin: right bottom;
+
+}
+
+.quart{
+  top: -200px;
+  left: 100px;
+  transform: rotate(180deg);
+
+  transform-origin: right bottom;
+}
+
+.cinque{
+  top: -300px;
+  left: 100px;
+  transform: rotate(240deg);
+
+  transform-origin: right bottom;
+}
+
+.sise{
+  top: -400px;
+  left: 100px;
+  transform: rotate(300deg);
+
+  transform-origin: right bottom;
+}
+
+.cor:hover{
+
+}
+
+.cor{
+  width: 95px;
+  height: 95px;
+  background-color: pink;
+  border-radius: 50%;
+  position: relative;
+  left: 151px;
+  top: -447px;
+  background-image: url(https://th.bing.com/th/id/OIP.Hawf7AYPGQtzf_OWybnIdwHaHa?pid=ImgDet&w=300&h=300&rs=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 00px 20px;
+
+  transform-origin: center center;
+}
+
+@keyframes quadrat{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
+.flor{
+
+  width: 400px;
+  height: 400px;
+  animation-name: quadrat;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  float: left;
+}
+
+.tija{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  clip-path: polygon(43% 0, 43% 26%, 47% 52%, 54% 80%, 64% 100%, 48% 100%, 38% 84%, 30% 62%, 24% 27%, 25% 0);
+  position: relative;
+  left: 100px;
+  top: 200px;
+  z-index: -1;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bd6bd2de-e488-4001-90fa-7c1352e918da/dy6q6e-e4a79e39-df0c-4bfc-ac0b-c2b0f640966b.jpg/v1/fill/w_600,h_519,q_75,strp/leaf_texture_by_divsm_stock_dy6q6e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01MTkiLCJwYXRoIjoiXC9mXC9iZDZiZDJkZS1lNDg4LTQwMDEtOTBmYS03YzEzNTJlOTE4ZGFcL2R5NnE2ZS1lNGE3OWUzOS1kZjBjLTRiZmMtYWMwYi1jMmIwZjY0MDk2NmIuanBnIiwid2lkdGgiOiI8PTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.of4SdBdsGlKRA-EMniRe0wEcBlIq7LTDDYm3FdZDxTY);
+  background-repeat: no-repeat;
+  filter: contrast(200%) brightness(80%);
+}
+
+.maceta{
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(100% 0, 100% 25%, 92% 25%, 100% 100%, 65% 100%, 30% 100%, 6% 100%, 11% 27%, 0 27%, 0 0);
+  background-color: brown;
+  position: relative;
+  top: 200px;
+  left: 180px;
+  background-image: url(https://th.bing.com/th/id/OIP.ktx8R5LKdsxpmQJQFSComwHaF1?pid=ImgDet&rs=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(110%) brightness(70%);
+}
+
+@keyframes abeja{
+  0% {left: 0px;}
+  50% {left: 500px;}
+  100% {left: 0px;}
+  99%{z-index: -1;}
+
+
+}
+
+.abeja{
+  width: 110px;
+  height: 90px;
+  background-color: transparent;
+  animation-name: abeja;
+  animation: abeja 1s infinite;
+  position: relative;
+  background-image: url(https://th.bing.com/th/id/R.5962b2f4eda68e5f42731e7fef400993?rik=h%2bZXS5SBPVlbKA&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2fwiki-los-200-mundo%2fimages%2f7%2f7b%2fAbeja.png%2frevision%2flatest%3fcb%3d20150321045134%26path-prefix%3des&ehk=qI5L6wb78iVB2hxCLdEPtvDFrPyQ8RHGFXDJ65eLwPs%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.5) rotateY(180deg);
+  animation-duration: 5s;
+  top: 80px;
+}
+
+/*
+@keyframes circulo{
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
+}
+
+.abeja2{
+  width: 300px;
+  height: 300px;
+  background-color: ;
+  border-radius: 50%;
+  position: relative;
+  border-top: 12px solid black;
+  border-right: 12px solid transparent;
+  top: 200px;
+  animation-name: circulo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+*/
+
+.regadera{
+  width: 400px;
+  height: 400px;
+  background-color: ;
+  position: relative;
+  top: -500px;
+  left: 380px;
+  background-image: url(https://img1.picmix.com/output/stamp/normal/9/7/2/2/562279_68c8a.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateZ(30deg);
+}
+
+.nube{
+  width: 100px;
+  height: 100px;
+  background-color: ;
+  position: relative;
+  top: -700px;
+  left: 100px;
+  background-image: url(https://lh3.googleusercontent.com/proxy/XAVuXph1cblSm7Ko9C5vZzf0SM_0HMTdd6f5CujnbGZ_EXS7hRyTnAdKqFQY-lI0e2c3fnowfHFNkdt4AI6-O4XVHVNOIdJi4rOTahX0ZmSIXhehDf4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.nube2{
+  width: 80px;
+  height: 80px;
+  background-color: ;
+  position: relative;
+  top: -700px;
+  left: 250px;
+  background-image: url(https://lh3.googleusercontent.com/proxy/XAVuXph1cblSm7Ko9C5vZzf0SM_0HMTdd6f5CujnbGZ_EXS7hRyTnAdKqFQY-lI0e2c3fnowfHFNkdt4AI6-O4XVHVNOIdJi4rOTahX0ZmSIXhehDf4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  transform: scaleX(-1);
+}
+
+.suelo{
+  width: 100%;
+  height: 120px;
+  background-color: brown;
+  position: relative;
+  top: -480px;
+  left: 0px;
+  border-radius: 20px;
+  background-image: url(https://img.freepik.com/vector-gratis/textura-piedra-dibujos-animados-fondo-transparente-colores-marrones_172107-380.jpg?size=338&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/*
+.flor{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: rotacio;
+  animation-duration: 30s;
+
+}
+
+https://th.bing.com/th/id/OIP.qYsuU0BzYfgTsKXVgWN64gHaE3?pid=ImgDet&rs=1
+*/
