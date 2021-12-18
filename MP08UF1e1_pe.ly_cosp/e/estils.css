@@ -1,0 +1,130 @@
+body{
+  background-color: #222;
+  font-family: helvetica, sans-serif;
+}
+
+ul{
+  background-color: black;
+  width: 100%;
+}
+
+li{
+  color: #CCC;;
+  display: inline-block;
+  height: 50px;
+  margin-left: 5px;
+  line-height: 70px;
+}
+
+a{
+  color: #CCC;
+}
+
+a:link{
+  color: #CCC;
+  text-decoration: none;
+
+}
+
+li:hover{
+  filter: opacity(50%);
+  color: #FFF;
+  text-decoration: underline 2px;
+}
+
+li:active{
+  color: #CCC;
+}
+
+h3{
+  float: right;
+  display: inline-block;
+  color: white;
+}
+
+
+div{
+  width: 175px;
+  height: 260px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: red;
+  float: left;
+}
+
+h1{
+ color: #FFF;
+ font-family: helvetica, sans-serif;
+ font-size: 22px;
+ float: left;
+ clear: both;
+ margin-left: 10px;
+}
+
+
+img{
+  width: 176px;
+  height: 260px;
+  float: left;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+img:hover{
+  filter: opacity(50%);
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+  margin: 5px 20px 5px 20px;
+}
+
+.u{
+  clear: both;
+}
+
+.set{
+  clear: both;
+}
+
+.dotze{
+  clear: both;
+}
+
+.setze{
+  clear: both;
+}
+
+.divuit{
+  clear: both;
+}
+
+.vint{
+  clear: both;
+}
+
+.vintidos{
+  clear: both;
+}
+
+#gris{
+  filter: grayscale(100%);
+}
+
+#clar{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#empujado{
+ margin-right: 100px;
+}
+
+
+.centrado{
+  float: right;
+  color: #FFF;
+  
+}
