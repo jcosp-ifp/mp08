@@ -1,0 +1,66 @@
+body{
+
+}
+
+div{
+  background-color: red;
+  height: 10em;
+  width: 10em;
+  background-size: 100% 100%;
+}
+
+span{
+  color: red;
+  display: none;
+}
+
+h2{
+  color: red;
+
+}
+
+.flotatE{
+  float: left;
+  margin: 0 1em 0 0;
+  background-image: url(../img/hasbulla.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+}
+
+.flotatR{
+  float: right;
+  margin: 0 0 1em 1em;
+  background-image: url(../img/abdul.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+}
+
+.capitular{
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  background-image: url(../img/capitular.jpg);
+  background-size: 100% 100%;
+  width: 3em;
+  height: 4em;
+}
+
+.columna{
+  width: 40%;
+  margin: 0 5%;
+}
+
+.Esquerra{
+  float: left;
+}
+
+.Dreta{
+  float: right;
+}
+
+
+
+h2{
+  clear: both; /*Para eliminar el efecto del floa. Así el h2 no se va para arriba*/
+}

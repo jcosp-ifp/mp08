@@ -1,0 +1,24 @@
+table{
+  background-color: black;
+  border: solid 10px;
+  border-color: cyan;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 0 auto; /*Para alinear la tabla*/
+  margin-top: 200px;
+  box-shadow: 10px 10px 10px; /*Para hacer sombras*/
+
+}
+
+th{
+  background-color: pink;
+  width: 150px;
+}
+
+td{
+  background-color: yellow;
+  height: 40px;
+  text-align: center;
+  font-family: Helvetica;
+}
+/*Lo de cambiar el color de las casillas, tambien se puede hacer con el sistema de las clases (class="")*/
