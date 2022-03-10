@@ -1,0 +1,421 @@
+@media screen and  (min-width: 1280px){
+
+body{
+ color: white;
+ cursor: url(img/guante.png), auto;
+ font-family: 'Oswald', sans-serif;
+}
+
+.capçalera{
+height: 135rem;
+width:  auto;
+background-color: #7CD8D5;
+text-align: center;
+padding: 30rem 0 0 0;
+background-image: url(img/comic.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 0px -1px 400px 78px rgba(0,0,0,1) inset;
+-webkit-box-shadow: 0px -1px 400px 78px rgba(0,0,0,1) inset;
+-moz-box-shadow: 0px -1px 400px 78px rgba(0,0,0,1) inset;
+}
+
+h1{
+  font-size: 14rem;
+  line-height: 10rem;
+}
+
+.portfoli{
+  padding: 20rem 0 0 0;
+}
+
+.peli{
+  width: 100%;
+  height: auto;
+}
+
+h5{
+  width: 100%;
+  text-align: center;
+  font-size: 14rem;
+  color: white;
+  height: 100%;
+  z-index: 99999999;
+  position: absolute;
+  top: 15rem;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.portada{
+  text-align: center;
+  width: auto;
+  height: 80rem;
+  background-color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+li{
+list-style: none;
+}
+
+.heroi1{
+  overflow: hidden;
+  float: left;
+  height: 79.5rem;
+}
+
+.resplandor{
+  z-index: 999999999999999999999999999;
+  float: left;
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  top: 24rem;
+  left: 34rem;
+  animation-name: llum;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: blur(50rem);
+}
+
+@keyframes llum {
+  0% {filter: opacity(0%);}
+  25% {filter: opacity(50%);}
+  50% {filter: opacity(100%);}
+  75% {filter: opacity(50%);}
+  100% {filter: opacity(0%);}
+
+}
+
+.ironman{
+  transform: scale(1.5);
+  overflow: hidden;
+  margin: 30rem 0 0 10rem;
+  filter: brightness(70%) contrast(120%);
+}
+
+.jarvis{
+  width: auto;
+  font-size: 8rem;
+  margin: 0 0 5rem 2rem;
+  overflow: hidden;
+  padding: 15rem 0 0 0;
+}
+
+.foto{
+  width: 39.5rem;
+  height: 23rem;
+  margin: 8rem 14rem 3rem 3rem;
+  display: inline-block;
+  background-image: url(https://blog.ida.cl/wp-content/uploads/sites/5/2012/05/encabezado1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  clip-path: polygon(12% 0, 100% 0, 100% 88%, 87% 100%, 0 100%, 0 11%);
+  transform: scale(1.5);
+}
+
+.foto:last-child{
+  background-image: url(https://olivierschmitt.fr/wp-content/uploads/2015/04/web-css_logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8rem 3rem 3rem 14rem;
+}
+
+.foto:hover{
+  transform: scale(1.4);
+  box-shadow: -5px 3px 400px -106px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: -5px 3px 400px -106px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: -5px 3px 400px -106px rgba(0,0,0,0.75) inset;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+  cursor: url(img/guante.png), auto;
+}
+
+.activitats{
+  height: 80rem;
+  margin-top: -0.5rem;
+  background-image: url(https://besthqwallpapers.com/Uploads/20-3-2019/84107/thumb2-brown-brick-wall-4k-grunge-brown-bricks-close-up.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 10px 50px 38px #000000;
+  box-shadow: inset 0px 10px 50px 38px #000000;
+}
+
+h3{
+  height: 40rem;
+  width: 140rem;
+  color: white;
+  position: relative;
+  font-size: 7rem;
+  float: left;
+  z-index: 999999999;
+  margin: 20rem 0 0 10%;
+  background-image: url(https://th.bing.com/th/id/R.30ee1624aae8b7bde66a62dfa6879631?rik=Rtdy9LjIK1Iz0w&riu=http%3a%2f%2f66.media.tumblr.com%2f625d81ad397358ece17b7a1526aff950%2ftumblr_nidrkyygBW1tz1oaro1_1280.png&ehk=MBMWIE98BaOnRNhGQY%2fyk8JZjfpFBB%2bfq82%2fwUg39IA%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 11rem 0 0 8rem;
+}
+
+.heroi2{
+  float: right;
+  transform: scale(1.4);
+  margin: 13rem 8rem 0 0;
+}
+
+.uf1{
+  color: transparent;
+}
+
+nav ul li{
+  height: auto;
+}
+
+ul a li{
+  width: 60rem;
+  height: 90rem;
+  float: left;
+  border-radius: 1rem;
+  text-align: center;
+  line-height: 27rem;
+  background-color: #151515;
+  margin: 3rem;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  clip-path: polygon(100% 0, 100% 94%, 91% 100%, 0 99%, 0 0);
+}
+
+ul a li:hover{
+  transform: translateY(-3rem);
+  background-color: #F0131E;
+
+  cursor: url(img/guante.png), auto;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+ul a li:active{
+  transform: scale(1.1);
+
+  cursor: url(img/guante.png), auto;
+}
+
+.m1{
+  width: 60rem;
+  height: 60rem;
+  border-bottom: solid #F0131E 2rem;
+  float: left;
+}
+
+.m1:hover{
+  border-bottom: solid transparent 2rem;
+  filter: brightness(70%);
+
+  cursor: url(img/guante.png), auto;
+}
+
+.name{
+  width: 100%;
+  position: relative;
+  z-index: 99999999;
+  color: white;
+  float: left;
+  text-align: left;
+  font-size: 5rem;
+  margin: -8rem 0 0 2rem;
+}
+
+.mision{
+  width: 100%;
+  color: #575757;
+  float: right;
+  font-size: 4rem;
+  margin: -11rem 14rem 0 0;
+  overflow: visible;
+}
+
+#tm1{
+  margin: -11rem 21rem 0 0;
+}
+
+#tm2{
+  margin: -11rem 13.5rem 0 0;
+}
+
+#tm3{
+  margin: -11rem 13rem 0 0;
+}
+
+#tm4{
+  margin: -11rem 13rem 0 0;
+}
+
+#tm5{
+  margin: -11rem 15rem 0 0;
+}
+
+#tm6{
+  margin: -11rem 16rem 0 0;
+}
+
+#tm7{
+  margin: -11rem 12rem 0 0;
+}
+
+#tm8{
+  margin: -11rem 12rem 0 0;
+}
+
+#tm9{
+  margin: -11rem 10rem 0 0;
+}
+
+a li img:hover{
+  filter: brightness(70%);
+
+  cursor: url(img/guante.png), auto;
+}
+
+.m1:hover{
+  border-bottom: ;
+
+  cursor: url(img/guante.png), auto;
+}
+
+.interior{
+  margin-top: 90rem;
+}
+
+/*-------------ESCOLA--------------*/
+
+.peu{
+  clear: both;
+  width: auto;
+  min-height: 70rem;
+  background-color: black;
+  margin-left: -5rem
+}
+
+.logo{
+  width: 65rem;
+  height: 65rem;
+  float: left;
+  margin-left: -5rem;
+  float: left;
+}
+
+.infoextra{
+  text-align: right;
+  width: auto;
+  float: left;
+  font-size: 5rem;
+  color: white;
+  margin: 11rem 0 0 2rem;
+  line-height: 11rem;
+}
+
+.app{
+  display: inline-block;
+}
+
+.xarxes li img{
+  width: 5rem;
+  height: 5rem;
+  margin: 0 2rem 0 0;
+  filter: opacity(30%);
+}
+
+.xarxes li img:hover{
+  filter: opacity(100);
+}
+
+#linkedin{
+  margin-right: -2rem;
+}
+
+.antoni{
+  float: right;
+  width: 100rem;
+  height: 60rem;
+  margin: 4rem 5rem 0 0;
+  border-bottom: solid #F0131E 2rem;
+  clip-path: polygon(12% 0, 100% 0, 100% 88%, 87% 100%, 0 100%, 0 11%);
+  overflow: visible;
+}
+
+.antoni:hover{
+  transform: scale(0.9);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+  cursor: url(img/guante.png), auto;
+}
+
+.gris{
+  color: #575757;
+}
+
+/*-------------FINAL
+
+.final{
+  background-color: red;
+  width: 100%;
+  height: 50rem;
+  float: left;
+  margin: 10rem 0 0 0;
+  overflow: hidden;
+}
+
+.final ul li{
+  float: left;
+  text-align: center;
+  width: 40rem;
+  height: 40rem;
+  background-color: blue;
+  display: inline-block;
+  margin: 5rem;
+}
+
+.final ul{
+  animation-name: dreta;
+  animation-timing-function: linear,ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+@keyframes dreta{
+  0%{margin: 0 0 0 0%; filter: opacity(0%);}
+  25%{margin: 0 0 0 25%; filter: opacity(100%);}
+  75%{margin: 0 0 0 75%;}
+  99%{margin: 0 0 0 100%;}
+  100%{margin: 0 0 0 400%;}
+}
+
+--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

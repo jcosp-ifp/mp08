@@ -1,0 +1,176 @@
+body{
+  background-color: #FFFFFF;
+  margin: 0;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: #666;
+  font-size: 13px;
+}
+
+h1{
+  margin: 0;
+  width: 380px;
+  padding: 30px;
+  text-align: center;
+  /*
+  padding: 30px;
+
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+*/
+}
+
+p{
+  margin: 0;
+  font-size: 18px; /*Para definir la fuente*/
+  line-height: 22px; /*Altura*/
+  width: 380px; /*Anchura*/
+  padding: 0px 30px 0px 30px;
+  text-align: justify;
+
+  /*padding: 0px 30px;*/
+
+  text-indent: 18px; /*Para añadir la sangria*/
+}
+
+div{
+  background-repeat: no-repeat;
+  background-position: 450px 0px;
+}
+
+ul{
+padding: 0px;
+display: inline-block;
+vertical-align: top;
+text-align: right;
+margin: 0;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block; /*para definir si trabaja como block o como line*/
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 0 0 10px 10px;
+  background-color: grey;
+  line-height: 40px;
+}
+
+li:link{
+  color: red;
+}
+li:hover{
+  background-color: green;
+}
+
+li:active{
+  background-color: black;
+}
+
+a:visited{
+  color: orange;
+}
+
+/*
+a:link{
+  color: red;
+}
+
+a:hover{
+  background-color: green;
+}
+
+a:active{
+  background-color: black;
+}
+
+a:visited{
+  color: orange;
+}
+*/
+
+#descarrega img{
+  padding-top: 30px;
+}
+
+.blanc{
+  background-color: #FFFFFF;
+}
+
+.verd{
+  background-color: #6C3;
+  height: 550px;
+}
+
+.fosca{
+  background-color: #333;
+}
+
+.clara{
+  background-color: #EEECEE;
+}
+
+.torna{
+  height: 75px;
+  width: 100px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 75px;
+  box-shadow: black 0px 0px 10px;
+}
+
+#menu{
+  height: 40px;
+}
+
+#menu img{
+
+}
+
+#tot{
+  height: 641px;
+}
+
+#util{
+  height: 500px;
+}
+
+#rapid{
+  height: 550px;
+  background-image: url(../img/mobile-share.png);
+  background-position: 450px 15px;
+}
+
+#arreu{
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+}
+
+#descarrega{
+  height: 200px;
+  text-align: center;
+}
+
+#facil{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#coneix{
+  background-image: url(../img/img-hero-full-list.png);
+
+}
+
+#tot{
+  background-image: url(../img/allinone.jpg);
+}
+
+#util{
+  background-image: url(../img/curator-short.png);
+}

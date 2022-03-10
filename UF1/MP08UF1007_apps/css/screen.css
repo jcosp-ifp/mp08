@@ -1,0 +1,280 @@
+body{
+  background-color: #1F002A;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 2000px;
+  font-family: sans-serif;
+
+  background-image: url(https://images2.alphacoders.com/103/1039991.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article{
+  float: left;
+  margin-top: 300px;
+  position: relative;
+}
+
+h2{
+  height: 400px;
+  color: white;
+  font-size: 300px;
+  font-family: Orbitron;
+  text-align: center;
+  background-image: url(https://static.videezy.com/system/resources/thumbnails/000/041/730/original/4K-6.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 400px;
+  background-position: right;
+  border-radius: 25% 25% 0% 0%;
+  margin-left: 200px;
+}
+
+h3{
+  background-color: cyan;
+  padding-left: 80px;
+  text-decoration-color: white;
+  font-family: Red Hat Mono;
+  font-size: 30px;
+}
+
+.versio_vero{
+  color: white;
+}
+
+h5{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  background-image: url(https://play-lh.googleusercontent.com/bJFT5znRAU_9wey8GniyLO0z7V5IEOixDnkjSJvCQEIhSumZrUMlpSgm3Irh8-R0sA);
+  background-size: cover;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 15%;
+}
+
+h5:hover{
+  filter: brightness(300%);
+}
+
+article:nth-child(3) h5 {
+  background-image: url(https://img.utdstc.com/icon/9c8/e70/9c8e7007803086dd01a26c69c998c6d3e8d26387639732a8bd8b039fc21d2e5c:200);
+}
+
+h6{
+  font-size: 60px;
+  font-family: Orbitron;
+  margin: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+p{
+  font-size: 30px;
+  font-family: Red Hat Mono;
+  margin: 20px 80px 80px 80px;
+  text-align: justify;
+}
+
+.plataformes{
+  background-color: purple;
+  height: 200px;
+  text-align: center;
+  border-radius: 0px 0px 50% 50%;
+  box-shadow: 0px 0px 50px
+}
+
+li{
+  display: inline-block;
+  font-size: 50px;
+  margin: 50px;
+}
+
+li:hover{
+  transform: scale(1.5);
+}
+
+.win, .mac, .lin, .web, .and, .ios:hover{
+  cursor: grab;
+}
+
+.finança_vero{
+  margin: 120px 0px 0px 80px;
+  list-style-type: georgian;
+}
+
+.money{
+  display: block;
+  font-size: 30px;
+  font-family: Red Hat Mono;
+}
+
+.win{
+  background-image:url(https://cdn-icons-png.flaticon.com/512/906/906308.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.mac{
+  background-image:url(https://clipartcraft.com/images/mac-logo-white-8.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.lin{
+  background-image:url(https://cdn-icons-png.flaticon.com/512/518/518713.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.web{
+  background-image:url(https://i.pinimg.com/originals/6f/43/56/6f4356b10843fb7ab5b93979f4f60e36.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.and{
+  background-image:url(https://cdn-icons-png.flaticon.com/512/518/518705.png);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.ios{
+  background-image:url(https://cdn-icons.flaticon.com/png/512/277/premium/277859.png?token=exp=1636400921~hmac=b3335740288625eef8ac389412390080);
+  width: 100px;
+  height: 100px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+div{
+  width: 400px;
+  height: 600px;
+  color: white;
+  background-image: url(https://wallpapercave.com/wp/wp5181420.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 10px;
+  font-size: 50px;
+  border-radius: 3%;
+  overflow: scroll;
+}
+
+div:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 70px black;
+  filter: grayscale(40%);
+}
+
+.alternatives{
+  clear: both;
+}
+
+.funcionalitats{
+    width: 1260px;
+    height: 1000px;
+}
+
+.captures{
+  width: 700px;
+  height: 1000px;
+  float: right;
+  background-image: url(https://www.droidapp.nl/wp-content/uploads/2018/02/Vero-app-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px 1350px;
+  background-position: center;
+  overflow: hidden;
+}
+
+article:last-child .captures{
+  background-image: url(https://is2-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/d7/07/41/d70741c8-50c3-015e-b9e1-54d3a3542aee/c16cd3d4-90ed-4e2e-9bfe-92e0a696de51_iOS_3_App_Store_Chat1_DM.png/1000x1000bb.png?h=500);
+}
+
+.avantatges, .inconvenients{
+  width: auto;
+  height: 300px;
+  margin: 10px;
+  background-image: none;
+  clear: both;
+  overflow: hidden;
+}
+
+.financament, .companyia, .alternatives, .valoracio, .funcionalitats, .companyia, .captures{
+  margin-top: 40px;
+}
+
+.financament, .companyia, .alternatives, .valoracio{
+  width: 970px;
+  height: 1000px;
+  overflow: hidden;
+}
+
+.petit{
+  font-size: 30px;
+  font-family: Orbitron;
+}
+
+.xarxes{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.alternativa{
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-size: cover;
+}
+
+#instagram{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png);
+}
+
+#twitter{
+  background-image: url(https://aepef.org/wp-content/uploads/2021/03/twitter-1.png);
+}
+
+#facebook{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png);
+}
+
+h1{
+  float: left;
+  color: white;
+  font-size: 80px;
+  margin: 20px 0px 0px 0px;
+  width: 2000px;
+  text-align: center;
+  font-family: Orbitron;
+  background-color: purple;
+  border-radius: 0px 0px 50% 50%;
+}
+
+h1:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 70px black;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
