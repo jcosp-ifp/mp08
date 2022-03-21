@@ -1,23 +1,55 @@
 body{
   background-color: #222;
   font-family: helvetica, sans-serif;
+  margin-top: 65px;
 }
+
+/*-----------------------------*/
 
 ul{
   background-color: black;
   width: 100%;
+  height: 50px;
+  position: fixed;
+  top: -16px;
+  left: 0px;
+  z-index: 9999;
+}
+
+#logo{
+  width: auto;
+  height: auto;
 }
 
 li{
   color: #CCC;;
-  display: inline-block;
-  height: 50px;
+  display: inline;
   margin-left: 5px;
   line-height: 70px;
+  filter: opacity(100%);
+}
+
+li:active{
+  color: #CCC;
+}
+
+li:hover{
+  color: #FFF;
+  text-decoration: underline 2px;
+}
+
+#empujado{
+  margin-right: 100px;
+}
+
+.xarxes{
+  float: right;
+  color: #FFF;
+  margin: 0 5px 0 5px;
 }
 
 a{
-  color: #CCC;
+  color: #FFF;
 }
 
 a:link{
@@ -26,48 +58,59 @@ a:link{
 
 }
 
-li:hover{
-  filter: opacity(50%);
-  color: #FFF;
-  text-decoration: underline 2px;
-}
+/*-----------------------------*/
 
-li:active{
-  color: #CCC;
-}
-
-h3{
-  float: right;
-  display: inline-block;
-  color: white;
-}
-
-
-div{
+.peli{
   width: 175px;
   height: 260px;
   border-radius: 5px;
-  margin: 10px;
-  background-color: red;
+  margin: 10px 10px 50px 10px;
   float: left;
+}
+
+#netejar{
+  clear: both;
 }
 
 h1{
  color: #FFF;
  font-family: helvetica, sans-serif;
  font-size: 22px;
- float: left;
+ margin: 10px;
  clear: both;
- margin-left: 10px;
 }
 
+h2{
+  color: #CCC;
+  font-size: 14px;
+  margin-top: -2px;
+}
+
+h3{
+  float: left;
+  display: inline-block;
+  color: #CCC;
+  font-size: 11px;
+  margin-top: -2px;
+}
+
+h4{
+  float: right;
+  display: inline-block;
+  color: #CCC;
+  text-align: right;
+  font-size: 11px;
+  margin-top: -2px;
+}
 
 img{
   width: 176px;
   height: 260px;
-  float: left;
-  margin: 10px;
   border-radius: 5px;
+}
+
+.blancnegre{
+  filter: grayscale(100%);
 }
 
 img:hover{
@@ -77,38 +120,10 @@ img:hover{
 .logo{
   width: 40px;
   height: 40px;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 20px 5px 5px;
 }
 
-.u{
-  clear: both;
-}
-
-.set{
-  clear: both;
-}
-
-.dotze{
-  clear: both;
-}
-
-.setze{
-  clear: both;
-}
-
-.divuit{
-  clear: both;
-}
-
-.vint{
-  clear: both;
-}
-
-.vintidos{
-  clear: both;
-}
-
-#gris{
+#gris, .grisa{
   filter: grayscale(100%);
 }
 
@@ -116,15 +131,4 @@ img:hover{
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
-}
-
-#empujado{
- margin-right: 100px;
-}
-
-
-.centrado{
-  float: right;
-  color: #FFF;
-  
 }

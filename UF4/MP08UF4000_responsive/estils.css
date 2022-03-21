@@ -1,0 +1,168 @@
+@media screen and  (min-width: 790px){
+body{
+  background-image: url(https://i.gifer.com/Uftg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+#alternador{
+  width: 5rem;
+  height: 5rem;
+  background: transparent;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#alternador label{
+  width: 5rem;
+  height: 5rem;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  transition: all 0.5 ease;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.desplega{
+  height: 15rem;
+  width: 2rem;
+  overflow: hidden;
+  position: absolute;
+  opacity: 1;
+  background: red;
+  left: -10rem;
+  transition: all .5s ease;
+  margin-top: 2.5rem;
+  border-radius: 0.1rem;
+  }
+
+  .desplega:hover{
+    width: 8rem;
+  }
+
+#alternador input[type=checkbox]:checked+label{
+  opacity: 1;
+  left: 0;
+}
+
+#alternador input[type=checkbox]:checked+label~.desplega{
+  opacity: 1;
+  left: 0;
+}
+
+h1{
+  text-align: center;
+  width: 100%;
+  margin-top: 18.5rem;
+  font-size: 3rem;
+}
+
+p{
+  text-align: center;
+  width: 100%;
+
+}
+
+b{
+  width: 3rem;
+  height: 0.5rem;
+  background: red;
+  display: block;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  margin-left: -2rem;
+}
+
+ul a li{
+  margin: 0.1rem 0 0.1rem 2rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 789px){
+  body{
+    background: yellow;
+  }
+
+  p:after{
+    background: url(img/ico0032.png);
+    content: "";
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav ul li{
+    display: block;
+    background: pink;
+    width: 8rem;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    float: left;
+  }
+
+  nav ul li ul{
+    display: none;
+  }
+
+  nav ul li:hover>ul{
+    display: block;
+    float: none;
+    position: relative;
+    left: -0.5rem;
+  }
+
+  nav ul:hover li ul li{
+    float: none;
+    background-color: purple;
+  }
+}
