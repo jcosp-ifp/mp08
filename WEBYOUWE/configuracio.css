@@ -1,0 +1,191 @@
+body{
+  overflow: hidden;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #000018;
+  opacity: 40%;
+  height: 4.125rem;
+  line-height: 3.9rem;
+  margin-left: 10.7rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1rem;
+}
+
+/*-----BARRA SUPERIOR-----*/
+
+.menu{
+  width: 25rem;
+  height: 59.99rem;
+  background-color: #19D3C5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.barra{
+  width: 80%;
+  height: 4.125rem;
+  background-color: #C3FFFF;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.lupa{
+  width: 3rem;
+  height: 3rem;
+  background-image: url(img/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin: 0.8rem;
+}
+
+/*-----SECCIONS-----*/
+
+.seccio{
+  width: 80%;
+  height: 2rem;
+  margin: 0 auto;
+  clear: both;
+}
+
+#baixa{
+  margin-top: 15rem;
+}
+
+.contenidor{
+  width: 80%;
+  height: 2rem;
+  float: left;
+}
+
+#campana{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/campana.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#privacitat{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/privacitat.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#seguretat{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/seguretat.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#anuncis{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/anuncis.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#compte{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/compte.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#ajuda{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/ajuda.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#informacio{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/informacio.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#tema{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/tema.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#idioma{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/idioma.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#iniciar{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/iniciar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+#agregar{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/agregar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+#sortir{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.2rem;
+  background-image: url(img/sortir.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
