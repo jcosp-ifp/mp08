@@ -1,7 +1,16 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 1rem;
+}
+
 body{
   background-image: url(img/segonfons.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1{
